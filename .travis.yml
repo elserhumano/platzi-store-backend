@@ -10,7 +10,9 @@ git:
 script:
   - yarn test
 notifications:
-  slack: falvarix:DDD0tJP2Bu43vxkdMAKH3V49
+  slack: 
+    secure:
+    "dWFMHiamVSnXZMXcbVvXPXXzmptpYwfREeFhQPZM28egXwmhwevD8Zpc9fL5sz0AV47V6GFp+3zQEBIDhFoA1R0TD7rV4wUOOGFvEC1b3msiMTZ7MvfhCW4BIzH70duD/vW+0xrwS5MS65WFaKQrPsF2PKLpxxREM9dFXyKzkbc5XBL4R69+3tnkt33BC905tnBIUx3KsBvVCiJLIL2MniW3Qf0IWOYD8+XTvYeByxTqGVGqg0yMz7MTaQClJgfbaI/SPmBMG3ER2AcaEdempKrh9RJg3uYg6dm5yOH3kymOjrX/QonOcrN4i4FlYdIHAksHdCIlFD3VBK6rQ3WibZCbRS36xj6wPxhSeZdmnVOaP3WCsmVx0Tf/z12qBMFa2d59N5vA9ZwEWMEM1OADG4oxD4cxwIQ8qz1bY91AsnDpgj0Xbkn01YLGw3fUUZXZh3Yfw5dcMZWAHheiIUgPGRK6c/lolOvTaj3VvcgSRfZVC4UJlmVEAzaG28FnMYzpa+myOuwC1kJ7dh0baaED8N+tHohCCCsJ/ycbVZxPC47mWqQhuwjXnQ41xaoXIMqOXwsUE0wrSFrt0hYkDDdUU9USo8xn6FvOZKkMrR4iibqR6c2gdOEC6Ay8DnnoeORBQeAEObJlm9YBN1Q12AmYP9I14rJgL5oYavOsqlwyDX8="
   email:
     recipients:
       - elserhumano@gmail.com
@@ -20,7 +22,9 @@ deploy:
   provide: heroku
   skip-cleanup: true
   keep-history: true
-  api_key: 0339aa09-2fb2-4134-a720-04e11f1dccd2
+  api_key:
+    secure:
+    "KwZf3jmqjlUTA3ERuM/tbYx4ZB52Im2aDjtHmeNmmVPfBLjmkY+XCKhtFuYDBIH2+SwiAxucdGijU2hBNdjsbBznBklS8sGWajOe6DKXJbHcsPr9JUZyae1A7SYsSZ9LF/Jnf2KfoiEALBTE7jSSTZlqyMNaKovAJHLTlAZbxMebLv2gCVGKpPUqCz4NJfY17e1UqqMb9biiMt5wU3agCiwfs2LwaSaAhkycsc4RlgZJWFuLYV6Ow1EY550f+LyBXTURtvuGo4mBZQtHm1udbjeo20zJWJXjJ/16BbODmBgkJraDLVRXsgyVbd0m5UfrIJ+1HXgr7mtkYp4xANQRbSTus5wcYfo4zFE+A7CLg47BZWKa39rVzmuu7CwkgZ2lgJYj0UA2c96Czj9p1i4UMRXiMKfPzpz8aObnSS0nhPTxvkKsF1JiSARXqheNBbEjABUn2IKC5uVgw7HjJ6hs339eq8cjf+xvCJJoJQEMDUzQO9/Iq2FLfVWsJPv49lZCq+A7jpt+pOGzFICNXkZ2UQUQQtOYgvdJ2cpuJE9D0LniK9xdguhCTQd9nOl/Onw8JUYsUUIrX7yCb2WxsIaMjKJn31FGdcny3HByaPGrGisb6Smnpk1M2beYWk2iHQzm1IrHS0V3nR61SXxnMAjEyTDYRCk0W0f3+BU9Cyxj6pY="
   app: falvarix-store-backend
   on:
     repo: elserhumano/platzi-store-backend
